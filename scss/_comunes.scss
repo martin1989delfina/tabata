@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: $color-terciario;
+    color: $color-secundario;
+}
+
+.nav-link,
+.nav-link.active,
+.navbar-nav .nav-link.active .container-fluid {
+    color: $color-principal;
+    transition: all 1s;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show .nav-link {
+    color: $color-principal;
+    transition: all 1s;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
+
+.menu-nav {
+    text-decoration: none;
+    color: $color-principal;
+    transition: all 1s;
+
+    &:hover {
+        color: $color-secundario;
+    }
+
+}
+
+.navbar-brand {
+    color: $color-principal;
+    transition: all 1s;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
+.navbar-toggler-icon {
+    border-color: aliceblue;
+}
+    .imgindex {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        padding: 1%;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+    .preguntas-f {
+        text-decoration: none;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .derechos {
+    font-size: 10px;
+    }
+    .whatsapp {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 2%;
+        font-size: 35px;
+        margin-left: 43%;
+    }
+    .instagram {
+        font-size: 30px;
+    }
+
+
+
+    @media (min-width: $tablet) {
+        header {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: $color-4;
+        }
+        .imgindex {
+            width: 20rem;
+        }
+        .btn {
+            margin-top: 100px;
+            font-size: $font-sm;
+        }
+        .derechos {
+            font-size: $font-ss;
+        }
+        .whatsapp {
+            display: flex;
+            flex-direction: row;
+            font-size: 60px;
+            top: 90%;
+        }
+        }

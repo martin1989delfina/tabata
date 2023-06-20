@@ -1,0 +1,36 @@
+
+#carouselExampleFade {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid $color-secundario;
+    width: 70%;
+    margin-bottom: 3%;
+}
+.titulo-contacto {
+    font-size: 15px;
+}
+.titulo-parrafo {
+    color: $color-principal;
+    font-size: 10px;
+}
+
+.img-elementos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    border: 2px solid $color-secundario;
+    border-radius: 1%;
+}
+@media (min-width: $tablet) {
+    .titulo-nos{
+        font-size: 50px;
+    }
+    .titulo-contacto {
+        font-size: 30px;
+    }
+    .titulo-parrafo {
+        font-size: 15px;
+    }
+}
