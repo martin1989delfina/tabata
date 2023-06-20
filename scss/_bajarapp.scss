@@ -1,0 +1,17 @@
+.titulo-turnos {
+    text-decoration: none;
+    color: $color-principal;
+}
+.turnos-a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto auto;
+}
+
+@media (min-width: $tablet) {
+    .turnos-a {
+        width: 400px;
+    }
+}
