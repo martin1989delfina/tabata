@@ -47,6 +47,7 @@
     border: 2px solid $color-terciario;
     border-radius: 10%;
     width: 250px;
+    @include Sombras
 }
 }
 @media (min-width: $tablet) {
