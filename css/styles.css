@@ -15,7 +15,7 @@ img {
 body {
   font-family: "Russo One", sans-serif;
   background-color: rgb(0, 0, 0);
-  color: rgba(255, 217, 0, 0.866);
+  color: rgba(255, 140, 0, 0.907);
 }
 
 .nav-link,
@@ -27,7 +27,7 @@ body {
 .nav-link:hover,
 .nav-link.active:hover,
 .navbar-nav .nav-link.active .container-fluid:hover {
-  color: rgba(255, 217, 0, 0.866);
+  color: rgba(255, 140, 0, 0.907);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show .nav-link {
@@ -35,7 +35,7 @@ body {
   transition: all 1s;
 }
 .navbar-nav .nav-link.active:hover, .navbar-nav .nav-link.show .nav-link:hover {
-  color: rgba(255, 217, 0, 0.866);
+  color: rgba(255, 140, 0, 0.907);
 }
 
 .menu-nav {
@@ -44,7 +44,7 @@ body {
   transition: all 1s;
 }
 .menu-nav:hover {
-  color: rgba(255, 217, 0, 0.866);
+  color: rgba(255, 140, 0, 0.907);
 }
 
 .navbar-brand {
@@ -52,7 +52,7 @@ body {
   transition: all 1s;
 }
 .navbar-brand:hover {
-  color: rgba(255, 217, 0, 0.866);
+  color: rgba(255, 140, 0, 0.907);
 }
 
 .navbar-toggler-icon {
@@ -69,8 +69,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   padding: 1%;
   text-align: center;
 }
@@ -82,6 +81,9 @@ p {
   margin-top: 70px;
   margin-bottom: 50px;
   font-size: 10px;
+  -webkit-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  -moz-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
 }
 
 .preguntas-f {
@@ -98,15 +100,16 @@ p {
 
 .derechos {
   font-size: 10px;
+  justify-content: center;
 }
 
 .whatsapp {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 70%;
-  font-size: 35px;
-  margin-left: 43%;
+  top: 30%;
+  font-size: 40px;
+  margin-left: 38%;
 }
 
 .instagram {
@@ -134,16 +137,19 @@ p {
     display: flex;
     flex-direction: row;
     font-size: 60px;
-    top: 90%;
+    top: 80%;
   }
 }
 .carousel {
   display: flex;
   flex-direction: column;
   margin: auto;
-  border: 2px solid rgba(255, 217, 0, 0.866);
+  border: 2px solid rgba(255, 140, 0, 0.907);
   width: 80%;
   margin-bottom: 3%;
+  -webkit-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  -moz-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
 }
 
 .segunda-galeria {
@@ -157,6 +163,7 @@ p {
 .titulo-parrafo {
   color: rgb(255, 255, 255);
   font-size: 10px;
+  text-align: center;
 }
 
 .img-elementos {
@@ -165,19 +172,23 @@ p {
   margin: auto;
   margin-bottom: 3%;
   width: 70%;
-  border: 2px solid rgba(255, 217, 0, 0.866);
+  border: 2px solid rgba(255, 140, 0, 0.907);
   border-radius: 1%;
+  -webkit-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  -moz-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+  box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
 }
 
 .link-app-a {
   text-decoration: none;
 }
 .link-app-a .link-app {
-  background-color: rgba(255, 217, 0, 0.866);
+  background-color: rgba(255, 140, 0, 0.907);
   margin: auto auto;
   margin-top: 3%;
   margin-bottom: 7%;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 1px 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,6 +224,7 @@ p {
 .titulo-turnos {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .turnos-a {
@@ -226,6 +238,18 @@ p {
 @media (min-width: 768px) {
   .turnos-a {
     width: 400px;
+  }
+}
+.parrafo-mision {
+  text-align: justify;
+  padding: 4%;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+  .parrafo-mision {
+    font-size: 20px;
   }
 }
 
