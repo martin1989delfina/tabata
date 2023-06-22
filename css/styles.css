@@ -38,12 +38,12 @@ body {
   color: rgba(255, 140, 0, 0.907);
 }
 
-.menu-nav {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: all 1s;
 }
-.menu-nav:hover {
+.navbar-nav .nav-link.active:hover, .navbar-nav .nav-link.show:hover {
   color: rgba(255, 140, 0, 0.907);
 }
 
@@ -254,6 +254,18 @@ h4 {
   .parrafo-mision {
     font-size: 20px;
   }
+}
+.parrafo-contacto {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  padding: 3%;
+}
+
+.parrafo-contacto2 {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=styles.css.map */

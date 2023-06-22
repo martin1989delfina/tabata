@@ -32,7 +32,7 @@ body {
     }
 }
 
-.menu-nav {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     text-decoration: none;
     color: $color-principal;
     transition: all 1s;
