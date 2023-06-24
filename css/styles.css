@@ -186,20 +186,26 @@ h4 {
 .link-app-a .link-app {
   background-color: rgba(255, 140, 0, 0.907);
   margin: auto auto;
-  margin-top: 3%;
+  margin-top: 7%;
   margin-bottom: 7%;
   color: rgb(255, 255, 255);
+  transition: 0.5s;
   text-shadow: rgb(0, 0, 0) 1px 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 15px;
+  font-size: 13px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 10%;
   width: 250px;
   -webkit-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
   -moz-box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
   box-shadow: 0px 0px 101px 3px rgb(127, 138, 81);
+}
+.link-app-a .link-app:hover {
+  background-color: black;
+  color: rgba(255, 140, 0, 0.907);
+  transition: 0.5s;
 }
 
 @media (min-width: 768px) {
@@ -223,6 +229,11 @@ h4 {
   }
   .ocultar {
     font-size: 0;
+  }
+}
+@media (min-width: 768px) {
+  .link-app {
+    font-size: 100px;
   }
 }
 .titulo-turnos {
@@ -273,6 +284,41 @@ h4 {
   display: flex;
   flex-direction: column;
   margin: auto auto;
+}
+
+.contenedor-preguntas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.titulo-preguntas {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 3%;
+}
+
+.parrafo-preguntas {
+  padding: 5%;
+  text-align: justify;
+  color: rgb(155, 154, 154);
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .titulo-preguntas {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 0;
+  }
+  .parrafo-preguntas {
+    padding: 5%;
+    text-align: justify;
+    color: rgb(155, 154, 154);
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

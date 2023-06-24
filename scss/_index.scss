@@ -36,18 +36,24 @@
 .link-app {
     background-color: $color-secundario;
     margin: auto auto;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-bottom: 7%;
     color: $color-principal;
+    transition: 0.5s;
     text-shadow: $color-terciario 1px 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
     border: 2px solid $color-terciario;
     border-radius: 10%;
     width: 250px;
-    @include Sombras
+    @include Sombras;
+    &:hover {
+        background-color: black;
+        color: $color-secundario;
+        transition: 0.5s;
+    }
 }
 }
 @media (min-width: $tablet) {
@@ -71,5 +77,10 @@
     }
     .ocultar {
         font-size: 0;
+    }
+}
+@media (min-width:$tablet) {
+    .link-app {
+        font-size: 100px;
     }
 }

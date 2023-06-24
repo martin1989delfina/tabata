@@ -1,0 +1,32 @@
+.contenedor-preguntas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.titulo-preguntas {
+    text-align: left;
+    color: $color-principal;
+    font-size:$font-sm;
+    padding: 3%;
+}
+.parrafo-preguntas {
+    padding: 5%;
+    text-align: justify;
+    color: rgb(155, 154, 154);
+    font-size: $font-ss;
+}
+
+@media (min-width:$tablet) {
+    .titulo-preguntas {
+        text-align: center;
+        color: $color-principal;
+        font-size:30px;
+        padding: 0;
+    }
+    .parrafo-preguntas {
+        padding: 5%;
+        text-align: justify;
+        color: rgb(155, 154, 154);
+        font-size: $font-sm;
+    }
+}
